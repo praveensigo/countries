@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Sep 14, 2021 at 09:59 AM
+- Server version: 10.4.17-MariaDB
+- PHP Version: 7.4.13
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="mindshala" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="countries">
+                CREATE TABLE `countries` (
+                  `country_id` int(11) NOT NULL AUTO_INCREMENT,
+                  `country_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `country_code` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `mobile_length` int(11) NOT NULL,
+                  `country_alpha_two` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `country_alpha_three` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  PRIMARY KEY (`country_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=240 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'mindshala'
+    -->
+    <database name="mindshala">
+        <!-- Table countries -->
+        <table name="countries">
+            <column name="country_id">1</column>
+            <column name="country_name">India</column>
+            <column name="country_code">+91</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">IN</column>
+            <column name="country_alpha_three">IND</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">2</column>
+            <column name="country_name">Afghanistan</column>
+            <column name="country_code">+93</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">AF</column>
+            <column name="country_alpha_three">AFG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">3</column>
+            <column name="country_name">Aland Islands</column>
+            <column name="country_code">+358</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">AX</column>
+            <column name="country_alpha_three">ALA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">4</column>
+            <column name="country_name">Albania</column>
+            <column name="country_code">+355</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">AL</column>
+            <column name="country_alpha_three">ALB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">5</column>
+            <column name="country_name">Algeria</column>
+            <column name="country_code">+213</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">DZ</column>
+            <column name="country_alpha_three">DZA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">6</column>
+            <column name="country_name">American Samoa</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">AS</column>
+            <column name="country_alpha_three">ASM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">7</column>
+            <column name="country_name">Andorra</column>
+            <column name="country_code">+376</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">AD</column>
+            <column name="country_alpha_three">AND</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">8</column>
+            <column name="country_name">Angola</column>
+            <column name="country_code">+244</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">AO</column>
+            <column name="country_alpha_three">AGO</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">9</column>
+            <column name="country_name">Anguilla</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">AI</column>
+            <column name="country_alpha_three">AIA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">10</column>
+            <column name="country_name">Antigua and Barbuda</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">AG</column>
+            <column name="country_alpha_three">ATG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">11</column>
+            <column name="country_name">Argentina</column>
+            <column name="country_code">+54</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">AR</column>
+            <column name="country_alpha_three">ARG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">12</column>
+            <column name="country_name">Armenia</column>
+            <column name="country_code">+374</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">AM</column>
+            <column name="country_alpha_three">ARM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">13</column>
+            <column name="country_name">Aruba</column>
+            <column name="country_code">+297</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">AW</column>
+            <column name="country_alpha_three">ABW</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">14</column>
+            <column name="country_name">Ascension Island</column>
+            <column name="country_code">+247</column>
+            <column name="mobile_length">5</column>
+            <column name="country_alpha_two">AC</column>
+            <column name="country_alpha_three">ASC</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">15</column>
+            <column name="country_name">Australia</column>
+            <column name="country_code">+61</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">AU</column>
+            <column name="country_alpha_three">AUS</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">16</column>
+            <column name="country_name">Austria</column>
+            <column name="country_code">+43</column>
+            <column name="mobile_length">11</column>
+            <column name="country_alpha_two">AT</column>
+            <column name="country_alpha_three">AUT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">17</column>
+            <column name="country_name">Azerbaijan</column>
+            <column name="country_code">+994</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">AZ</column>
+            <column name="country_alpha_three">AZE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">18</column>
+            <column name="country_name">Bahamas</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">BS</column>
+            <column name="country_alpha_three">BHS</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">19</column>
+            <column name="country_name">Bahrain</column>
+            <column name="country_code">+973</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">BH</column>
+            <column name="country_alpha_three">BHR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">20</column>
+            <column name="country_name">Barbados</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">BB</column>
+            <column name="country_alpha_three">BRB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">21</column>
+            <column name="country_name">Belarus</column>
+            <column name="country_code">+375</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">BY</column>
+            <column name="country_alpha_three">BLR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">22</column>
+            <column name="country_name">Belgium</column>
+            <column name="country_code">+32</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">BE</column>
+            <column name="country_alpha_three">BEL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">23</column>
+            <column name="country_name">Belize</column>
+            <column name="country_code">+501</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">BZ</column>
+            <column name="country_alpha_three">BLZ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">24</column>
+            <column name="country_name">Benin</column>
+            <column name="country_code">+229</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">BJ</column>
+            <column name="country_alpha_three">BEN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">25</column>
+            <column name="country_name">Bermuda</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">BM</column>
+            <column name="country_alpha_three">BMU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">26</column>
+            <column name="country_name">Bhutan</column>
+            <column name="country_code">+975</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">BT</column>
+            <column name="country_alpha_three">BTN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">27</column>
+            <column name="country_name">Bolivia</column>
+            <column name="country_code">+591</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">BO</column>
+            <column name="country_alpha_three">BOL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">28</column>
+            <column name="country_name">Bosnia and Herzegovina</column>
+            <column name="country_code">+387</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">BA</column>
+            <column name="country_alpha_three">BIH</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">29</column>
+            <column name="country_name">Botswana</column>
+            <column name="country_code">+267</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">BW</column>
+            <column name="country_alpha_three">BWA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">30</column>
+            <column name="country_name">Brazil</column>
+            <column name="country_code">+55</column>
+            <column name="mobile_length">11</column>
+            <column name="country_alpha_two">BR</column>
+            <column name="country_alpha_three">BRA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">31</column>
+            <column name="country_name">British Indian Ocean Territory</column>
+            <column name="country_code">+246</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">IO</column>
+            <column name="country_alpha_three">IOT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">32</column>
+            <column name="country_name">British Virgin Islands</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">VG</column>
+            <column name="country_alpha_three">VGB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">33</column>
+            <column name="country_name">Bulgaria</column>
+            <column name="country_code">+359</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">BG</column>
+            <column name="country_alpha_three">BGR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">34</column>
+            <column name="country_name">Burkina Faso</column>
+            <column name="country_code">+226</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">BF</column>
+            <column name="country_alpha_three">BFA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">35</column>
+            <column name="country_name">Cambodia</column>
+            <column name="country_code">+855</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">KH</column>
+            <column name="country_alpha_three">KHM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">36</column>
+            <column name="country_name">Cameroon</column>
+            <column name="country_code">+237</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">CM</column>
+            <column name="country_alpha_three">CMR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">37</column>
+            <column name="country_name">Canada</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">CA</column>
+            <column name="country_alpha_three">CAN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">38</column>
+            <column name="country_name">Cayman Islands</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">KY</column>
+            <column name="country_alpha_three">CYM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">39</column>
+            <column name="country_name">Central African Republic</column>
+            <column name="country_code">+236</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">CF</column>
+            <column name="country_alpha_three">CAF</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">40</column>
+            <column name="country_name">Chad</column>
+            <column name="country_code">+235</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">TD</column>
+            <column name="country_alpha_three">TCD</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">41</column>
+            <column name="country_name">Chagos Islands</column>
+            <column name="country_code">+246</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">IO</column>
+            <column name="country_alpha_three">IOT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">42</column>
+            <column name="country_name">Chile</column>
+            <column name="country_code">+56</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">CL</column>
+            <column name="country_alpha_three">CHL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">43</column>
+            <column name="country_name">People's Republic of China</column>
+            <column name="country_code">+86</column>
+            <column name="mobile_length">13</column>
+            <column name="country_alpha_two">CN</column>
+            <column name="country_alpha_three">CHN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">44</column>
+            <column name="country_name">Colombia</column>
+            <column name="country_code">+57</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">CO</column>
+            <column name="country_alpha_three">COL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">45</column>
+            <column name="country_name">Comoros</column>
+            <column name="country_code">+269</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">KM</column>
+            <column name="country_alpha_three">COM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">46</column>
+            <column name="country_name">Republic of Congo</column>
+            <column name="country_code">+242</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">CD</column>
+            <column name="country_alpha_three">COD</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">47</column>
+            <column name="country_name">Democratic Republic of Congo</column>
+            <column name="country_code">+243</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">CG</column>
+            <column name="country_alpha_three">COG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">48</column>
+            <column name="country_name">Cook Islands</column>
+            <column name="country_code">+682</column>
+            <column name="mobile_length">5</column>
+            <column name="country_alpha_two">CK</column>
+            <column name="country_alpha_three">COK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">49</column>
+            <column name="country_name">Costa Rica</column>
+            <column name="country_code">+506</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">CR</column>
+            <column name="country_alpha_three">CRI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">50</column>
+            <column name="country_name">Croatia</column>
+            <column name="country_code">+385</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">HR</column>
+            <column name="country_alpha_three">HRV</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">51</column>
+            <column name="country_name">Cuba</column>
+            <column name="country_code">+53</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">CU</column>
+            <column name="country_alpha_three">CUB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">52</column>
+            <column name="country_name">Curacao</column>
+            <column name="country_code">+599</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">CW</column>
+            <column name="country_alpha_three">CUW</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">53</column>
+            <column name="country_name">Cyprus</column>
+            <column name="country_code">+357</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">CY</column>
+            <column name="country_alpha_three">CYP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">54</column>
+            <column name="country_name">Czech Republic</column>
+            <column name="country_code">+420</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">CZ</column>
+            <column name="country_alpha_three">CZE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">55</column>
+            <column name="country_name">Denmark</column>
+            <column name="country_code">+45</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">DK</column>
+            <column name="country_alpha_three">DNK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">56</column>
+            <column name="country_name">Diego Garcia</column>
+            <column name="country_code">+246</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">DG</column>
+            <column name="country_alpha_three">DG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">57</column>
+            <column name="country_name">Djibouti</column>
+            <column name="country_code">+253</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">DJ</column>
+            <column name="country_alpha_three">DJI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">58</column>
+            <column name="country_name">Dominica</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">DM</column>
+            <column name="country_alpha_three">DMA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">59</column>
+            <column name="country_name">Dominican Republic</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">DO</column>
+            <column name="country_alpha_three">DOM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">60</column>
+            <column name="country_name">East Timor</column>
+            <column name="country_code">+67</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">TP</column>
+            <column name="country_alpha_three">TMP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">61</column>
+            <column name="country_name">Ecuador</column>
+            <column name="country_code">+593</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">EC</column>
+            <column name="country_alpha_three">ECU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">62</column>
+            <column name="country_name">Egypt</column>
+            <column name="country_code">+20</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">EG</column>
+            <column name="country_alpha_three">EGY</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">63</column>
+            <column name="country_name">El Salvado</column>
+            <column name="country_code">+503</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">SV</column>
+            <column name="country_alpha_three">SLV</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">64</column>
+            <column name="country_name">England</column>
+            <column name="country_code">+44</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">EN</column>
+            <column name="country_alpha_three">ENG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">65</column>
+            <column name="country_name">Equatorial Guinea</column>
+            <column name="country_code">+240</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">GQ</column>
+            <column name="country_alpha_three">GNQ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">66</column>
+            <column name="country_name">Eritrea</column>
+            <column name="country_code">+291</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">ER</column>
+            <column name="country_alpha_three">ERI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">67</column>
+            <column name="country_name">Estonia</column>
+            <column name="country_code">+372</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">EE</column>
+            <column name="country_alpha_three">EST</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">68</column>
+            <column name="country_name">Ethiopia</column>
+            <column name="country_code">+251</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">ET</column>
+            <column name="country_alpha_three">ETH</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">69</column>
+            <column name="country_name">Eswatini</column>
+            <column name="country_code">+268</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">SZ</column>
+            <column name="country_alpha_three">SWZ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">70</column>
+            <column name="country_name">Falkland Islands</column>
+            <column name="country_code">+500</column>
+            <column name="mobile_length">5</column>
+            <column name="country_alpha_two">FK</column>
+            <column name="country_alpha_three">FLK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">71</column>
+            <column name="country_name">Faroe Islands</column>
+            <column name="country_code">+298</column>
+            <column name="mobile_length">5</column>
+            <column name="country_alpha_two">FO</column>
+            <column name="country_alpha_three">FRO</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">72</column>
+            <column name="country_name">Federated States of Micronesia</column>
+            <column name="country_code">+691</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">FM</column>
+            <column name="country_alpha_three">FSM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">73</column>
+            <column name="country_name">Fiji</column>
+            <column name="country_code">+679</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">FJ</column>
+            <column name="country_alpha_three">FJI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">74</column>
+            <column name="country_name">Finland</column>
+            <column name="country_code">+358</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">FI</column>
+            <column name="country_alpha_three">FIN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">75</column>
+            <column name="country_name">France</column>
+            <column name="country_code">+33</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">FR</column>
+            <column name="country_alpha_three">FRA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">76</column>
+            <column name="country_name">French Guiana</column>
+            <column name="country_code">+594</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">GF</column>
+            <column name="country_alpha_three">GUF</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">77</column>
+            <column name="country_name">French Polynesia</column>
+            <column name="country_code">+689</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">PF</column>
+            <column name="country_alpha_three">PYF</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">78</column>
+            <column name="country_name">Gabon</column>
+            <column name="country_code">+241</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">GA</column>
+            <column name="country_alpha_three">GAB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">79</column>
+            <column name="country_name">Gambia</column>
+            <column name="country_code">+220</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">GM</column>
+            <column name="country_alpha_three">GMB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">80</column>
+            <column name="country_name">Georgia</column>
+            <column name="country_code">+995</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">GE</column>
+            <column name="country_alpha_three">GEO</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">81</column>
+            <column name="country_name">Germany</column>
+            <column name="country_code">+49</column>
+            <column name="mobile_length">11</column>
+            <column name="country_alpha_two">DE</column>
+            <column name="country_alpha_three">DEU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">82</column>
+            <column name="country_name">Ghana</column>
+            <column name="country_code">+233</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">GH</column>
+            <column name="country_alpha_three">GHA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">83</column>
+            <column name="country_name">Gibraltar</column>
+            <column name="country_code">+350</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">GI</column>
+            <column name="country_alpha_three">GIB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">84</column>
+            <column name="country_name">Greece</column>
+            <column name="country_code">+30</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">GR</column>
+            <column name="country_alpha_three">GRC</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">85</column>
+            <column name="country_name">Greenland</column>
+            <column name="country_code">+299</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">GL</column>
+            <column name="country_alpha_three">GRL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">86</column>
+            <column name="country_name">Grenada</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">GD</column>
+            <column name="country_alpha_three">GRD</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">87</column>
+            <column name="country_name">Guadeloupe</column>
+            <column name="country_code">+590</column>
+            <column name="mobile_length">12</column>
+            <column name="country_alpha_two">GP</column>
+            <column name="country_alpha_three">GLP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">88</column>
+            <column name="country_name">Guam</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">GU</column>
+            <column name="country_alpha_three">GUM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">89</column>
+            <column name="country_name">Guatemala</column>
+            <column name="country_code">+502</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">GT</column>
+            <column name="country_alpha_three">GTM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">90</column>
+            <column name="country_name">Guernsey</column>
+            <column name="country_code">+44</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">GG</column>
+            <column name="country_alpha_three">GGY</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">91</column>
+            <column name="country_name">Guinea</column>
+            <column name="country_code">+224</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">GN</column>
+            <column name="country_alpha_three">GIN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">92</column>
+            <column name="country_name">Guinea-Bissau</column>
+            <column name="country_code">+245</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">GW</column>
+            <column name="country_alpha_three">GNB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">93</column>
+            <column name="country_name">Guyana</column>
+            <column name="country_code">+592</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">GY</column>
+            <column name="country_alpha_three">GUY</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">94</column>
+            <column name="country_name">Haiti</column>
+            <column name="country_code">+509</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">HT</column>
+            <column name="country_alpha_three">HTI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">95</column>
+            <column name="country_name">Hawaii</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">HI</column>
+            <column name="country_alpha_three">HI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">96</column>
+            <column name="country_name">Honduras</column>
+            <column name="country_code">+54</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">HN</column>
+            <column name="country_alpha_three">HND</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">97</column>
+            <column name="country_name">Hong Kong</column>
+            <column name="country_code">+852</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">HK</column>
+            <column name="country_alpha_three">HKG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">98</column>
+            <column name="country_name">Hungary</column>
+            <column name="country_code">+36</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">HU</column>
+            <column name="country_alpha_three">HUN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">99</column>
+            <column name="country_name">Iceland</column>
+            <column name="country_code">+354</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">IS</column>
+            <column name="country_alpha_three">ISL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">100</column>
+            <column name="country_name">Indonesia</column>
+            <column name="country_code">+62</column>
+            <column name="mobile_length">11</column>
+            <column name="country_alpha_two">ID</column>
+            <column name="country_alpha_three">IDN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">101</column>
+            <column name="country_name">Iran</column>
+            <column name="country_code">+98</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">IR</column>
+            <column name="country_alpha_three">IRN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">102</column>
+            <column name="country_name">Iraq</column>
+            <column name="country_code">+964</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">IQ</column>
+            <column name="country_alpha_three">IRQ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">103</column>
+            <column name="country_name">Ireland</column>
+            <column name="country_code">+353</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">IE</column>
+            <column name="country_alpha_three">IRL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">104</column>
+            <column name="country_name">Isle of Man</column>
+            <column name="country_code">+44</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">IM</column>
+            <column name="country_alpha_three">IMN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">105</column>
+            <column name="country_name">Israel</column>
+            <column name="country_code">+972</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">IL</column>
+            <column name="country_alpha_three">ISR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">106</column>
+            <column name="country_name">Italy</column>
+            <column name="country_code">+39</column>
+            <column name="mobile_length">13</column>
+            <column name="country_alpha_two">IT</column>
+            <column name="country_alpha_three">ITA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">107</column>
+            <column name="country_name">Ivory Coast</column>
+            <column name="country_code">+225</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">CI</column>
+            <column name="country_alpha_three">CIV</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">108</column>
+            <column name="country_name">Jamaica</column>
+            <column name="country_code">1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">JM</column>
+            <column name="country_alpha_three">JAM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">109</column>
+            <column name="country_name">Jan Mayen</column>
+            <column name="country_code">+47</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">SV</column>
+            <column name="country_alpha_three">SV</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">110</column>
+            <column name="country_name">Japan</column>
+            <column name="country_code">+81</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">JP</column>
+            <column name="country_alpha_three">JPN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">111</column>
+            <column name="country_name">Jersey</column>
+            <column name="country_code">+44</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">JE</column>
+            <column name="country_alpha_three">JEY</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">112</column>
+            <column name="country_name">Jordan</column>
+            <column name="country_code">+962</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">JO</column>
+            <column name="country_alpha_three">JOR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">113</column>
+            <column name="country_name">Kazakhstan</column>
+            <column name="country_code">+7</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">KZ</column>
+            <column name="country_alpha_three">KAZ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">114</column>
+            <column name="country_name">Kenya</column>
+            <column name="country_code">+254</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">KE</column>
+            <column name="country_alpha_three">KEN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">115</column>
+            <column name="country_name">Kiribati</column>
+            <column name="country_code">+686</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">KI</column>
+            <column name="country_alpha_three">KIR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">116</column>
+            <column name="country_name">Kosovo</column>
+            <column name="country_code">+383</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">XK</column>
+            <column name="country_alpha_three">XKX</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">117</column>
+            <column name="country_name">Kuwait</column>
+            <column name="country_code">+965</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">KW</column>
+            <column name="country_alpha_three">KWT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">118</column>
+            <column name="country_name">Kyrgyzstan</column>
+            <column name="country_code">+996</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">KG</column>
+            <column name="country_alpha_three">KGZ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">119</column>
+            <column name="country_name">Latvia</column>
+            <column name="country_code">+371</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">LV</column>
+            <column name="country_alpha_three">LVA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">120</column>
+            <column name="country_name">Lebanon</column>
+            <column name="country_code">+961</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">LB</column>
+            <column name="country_alpha_three">LBN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">121</column>
+            <column name="country_name">Lesotho</column>
+            <column name="country_code">+266</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">LS</column>
+            <column name="country_alpha_three">LSO</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">122</column>
+            <column name="country_name">Liberia</column>
+            <column name="country_code">+231</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">LR</column>
+            <column name="country_alpha_three">LBR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">123</column>
+            <column name="country_name">Libya</column>
+            <column name="country_code">+218</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">LY</column>
+            <column name="country_alpha_three">LBY</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">124</column>
+            <column name="country_name">Liechtenstein</column>
+            <column name="country_code">+423</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">LI</column>
+            <column name="country_alpha_three">LIE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">125</column>
+            <column name="country_name">Lithuania</column>
+            <column name="country_code">+370</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">LT</column>
+            <column name="country_alpha_three">LTU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">126</column>
+            <column name="country_name">Luxembourg</column>
+            <column name="country_code">+352</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">LU</column>
+            <column name="country_alpha_three">LUX</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">127</column>
+            <column name="country_name">Macau</column>
+            <column name="country_code">+853</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MO</column>
+            <column name="country_alpha_three">MAC</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">128</column>
+            <column name="country_name">Madagascar</column>
+            <column name="country_code">+261</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">MG</column>
+            <column name="country_alpha_three">MDG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">129</column>
+            <column name="country_name">Malawi</column>
+            <column name="country_code">+265</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">MW</column>
+            <column name="country_alpha_three">MWI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">130</column>
+            <column name="country_name">Malaysia</column>
+            <column name="country_code">+60</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MY</column>
+            <column name="country_alpha_three">MYS</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">131</column>
+            <column name="country_name">Maldives</column>
+            <column name="country_code">+960</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">MV</column>
+            <column name="country_alpha_three">MDV</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">132</column>
+            <column name="country_name">Mali</column>
+            <column name="country_code">+223</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">ML</column>
+            <column name="country_alpha_three">MLI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">133</column>
+            <column name="country_name">Malta</column>
+            <column name="country_code">+356</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MT</column>
+            <column name="country_alpha_three">MLT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">134</column>
+            <column name="country_name">Marshall Islands</column>
+            <column name="country_code">+692</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">MH</column>
+            <column name="country_alpha_three">MHL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">135</column>
+            <column name="country_name">Martinique</column>
+            <column name="country_code">+596</column>
+            <column name="mobile_length">12</column>
+            <column name="country_alpha_two">MQ</column>
+            <column name="country_alpha_three">MTQ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">136</column>
+            <column name="country_name">Mauritania</column>
+            <column name="country_code">+222</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MR</column>
+            <column name="country_alpha_three">MRT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">137</column>
+            <column name="country_name">Mauritius</column>
+            <column name="country_code">+230</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MU</column>
+            <column name="country_alpha_three">MUS</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">138</column>
+            <column name="country_name">Mayotte</column>
+            <column name="country_code">+262</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">YT</column>
+            <column name="country_alpha_three">MYT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">139</column>
+            <column name="country_name">Mexico</column>
+            <column name="country_code">+52</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">MX</column>
+            <column name="country_alpha_three">MEX</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">140</column>
+            <column name="country_name">Moldova</column>
+            <column name="country_code">+373</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MD</column>
+            <column name="country_alpha_three">MDA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">141</column>
+            <column name="country_name">Monaco</column>
+            <column name="country_code">+377</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MC</column>
+            <column name="country_alpha_three">MCO</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">142</column>
+            <column name="country_name">Mongolia</column>
+            <column name="country_code">+976</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MN</column>
+            <column name="country_alpha_three">MNG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">143</column>
+            <column name="country_name">Montenegro</column>
+            <column name="country_code">+382</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">ME</column>
+            <column name="country_alpha_three">MNE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">144</column>
+            <column name="country_name">Montserrat</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">MS</column>
+            <column name="country_alpha_three">MSR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">145</column>
+            <column name="country_name">Morocco</column>
+            <column name="country_code">+212</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">MA</column>
+            <column name="country_alpha_three">MAR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">146</column>
+            <column name="country_name">Mozambique</column>
+            <column name="country_code">+258</column>
+            <column name="mobile_length">12</column>
+            <column name="country_alpha_two">MAR</column>
+            <column name="country_alpha_three">MOZ</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">147</column>
+            <column name="country_name">Myanmar</column>
+            <column name="country_code">+95</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">MM</column>
+            <column name="country_alpha_three">MMR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">148</column>
+            <column name="country_name">Namibia</column>
+            <column name="country_code">+264</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">NA</column>
+            <column name="country_alpha_three">NAM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">149</column>
+            <column name="country_name">Nauru</column>
+            <column name="country_code">+674</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">NR</column>
+            <column name="country_alpha_three">NRU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">150</column>
+            <column name="country_name">Nepal</column>
+            <column name="country_code">+977</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">NP</column>
+            <column name="country_alpha_three">NPL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">151</column>
+            <column name="country_name">Netherlands</column>
+            <column name="country_code">+31</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">NL</column>
+            <column name="country_alpha_three">NLD</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">152</column>
+            <column name="country_name">New Caledonia</column>
+            <column name="country_code">+687</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">NC</column>
+            <column name="country_alpha_three">NCL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">153</column>
+            <column name="country_name">New Zealand</column>
+            <column name="country_code">+64</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">NZ</column>
+            <column name="country_alpha_three">NZL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">154</column>
+            <column name="country_name">Nicaragua</column>
+            <column name="country_code">+505</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">NI</column>
+            <column name="country_alpha_three">NIC</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">155</column>
+            <column name="country_name">Niger</column>
+            <column name="country_code">+227</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">NE</column>
+            <column name="country_alpha_three">NER</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">156</column>
+            <column name="country_name">Nigeria</column>
+            <column name="country_code">+234</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">NG</column>
+            <column name="country_alpha_three">NGA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">157</column>
+            <column name="country_name">Niue</column>
+            <column name="country_code">+683</column>
+            <column name="mobile_length">4</column>
+            <column name="country_alpha_two">NU</column>
+            <column name="country_alpha_three">NIU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">158</column>
+            <column name="country_name">Norfolk Island</column>
+            <column name="country_code">+672</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">NF</column>
+            <column name="country_alpha_three">NFK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">159</column>
+            <column name="country_name">North Korea</column>
+            <column name="country_code">+850</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">KP</column>
+            <column name="country_alpha_three">PRK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">160</column>
+            <column name="country_name">North Macedonia</column>
+            <column name="country_code">+389</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">MK</column>
+            <column name="country_alpha_three">MKD</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">161</column>
+            <column name="country_name">Northern Cyprus</column>
+            <column name="country_code">+90</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">CY</column>
+            <column name="country_alpha_three">CYP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">162</column>
+            <column name="country_name">Northern Mariana Islands</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">MP</column>
+            <column name="country_alpha_three">MNP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">163</column>
+            <column name="country_name">Norway</column>
+            <column name="country_code">+47</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">NO</column>
+            <column name="country_alpha_three">NOR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">164</column>
+            <column name="country_name">Oman</column>
+            <column name="country_code">+968</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">OM</column>
+            <column name="country_alpha_three">OMN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">165</column>
+            <column name="country_name">Pakistan</column>
+            <column name="country_code">+92</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">PK</column>
+            <column name="country_alpha_three">PAK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">166</column>
+            <column name="country_name">Palau</column>
+            <column name="country_code">+680</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">PW</column>
+            <column name="country_alpha_three">PLW</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">167</column>
+            <column name="country_name">Palestine</column>
+            <column name="country_code">+970</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">PS</column>
+            <column name="country_alpha_three">PSE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">168</column>
+            <column name="country_name">Panama</column>
+            <column name="country_code">+507</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">PA</column>
+            <column name="country_alpha_three">PAN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">169</column>
+            <column name="country_name">Papua New Guinea</column>
+            <column name="country_code">+675</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">PG</column>
+            <column name="country_alpha_three">PNG</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">170</column>
+            <column name="country_name">Paraguay</column>
+            <column name="country_code">+595</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">PY</column>
+            <column name="country_alpha_three">PRY</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">171</column>
+            <column name="country_name">Peru</column>
+            <column name="country_code">+51</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">PE</column>
+            <column name="country_alpha_three">PER</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">172</column>
+            <column name="country_name">Philippines</column>
+            <column name="country_code">+63</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">PH</column>
+            <column name="country_alpha_three">PHL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">173</column>
+            <column name="country_name">Poland</column>
+            <column name="country_code">+48</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">PL</column>
+            <column name="country_alpha_three">POL</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">174</column>
+            <column name="country_name">Portugal</column>
+            <column name="country_code">+351</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">PT</column>
+            <column name="country_alpha_three">PRT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">175</column>
+            <column name="country_name">Puerto Rico</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">PR</column>
+            <column name="country_alpha_three">PRI</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">176</column>
+            <column name="country_name">Qatar</column>
+            <column name="country_code">+974</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">QA</column>
+            <column name="country_alpha_three">QAT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">177</column>
+            <column name="country_name">Reunion</column>
+            <column name="country_code">+262</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">RE</column>
+            <column name="country_alpha_three">REU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">178</column>
+            <column name="country_name">Romania</column>
+            <column name="country_code">+40</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">RO</column>
+            <column name="country_alpha_three">ROU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">179</column>
+            <column name="country_name">Russia</column>
+            <column name="country_code">+7</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">RU</column>
+            <column name="country_alpha_three">RUS</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">180</column>
+            <column name="country_name">Rwanda</column>
+            <column name="country_code">+250</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">RW</column>
+            <column name="country_alpha_three">RWA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">181</column>
+            <column name="country_name">Saint Barthelemy</column>
+            <column name="country_code">+590</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">BL</column>
+            <column name="country_alpha_three">BLM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">182</column>
+            <column name="country_name">Saint Helena and Tristan da Cunha</column>
+            <column name="country_code">+290</column>
+            <column name="mobile_length">4</column>
+            <column name="country_alpha_two">SH</column>
+            <column name="country_alpha_three">SHN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">183</column>
+            <column name="country_name">Saint Kitts and Nevis</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">KN</column>
+            <column name="country_alpha_three">KNA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">184</column>
+            <column name="country_name">Saint Lucia</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">LC</column>
+            <column name="country_alpha_three">LCA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">185</column>
+            <column name="country_name">Collectivity of Saint Martin</column>
+            <column name="country_code">+590</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">MF</column>
+            <column name="country_alpha_three">MAF</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">186</column>
+            <column name="country_name">Saint Pierre and Miquelon</column>
+            <column name="country_code">+508</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">PM</column>
+            <column name="country_alpha_three">SPM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">187</column>
+            <column name="country_name">Saint Vincent and Grenadines</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">VC</column>
+            <column name="country_alpha_three">VCT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">188</column>
+            <column name="country_name">Samao</column>
+            <column name="country_code">+685</column>
+            <column name="mobile_length">5</column>
+            <column name="country_alpha_two">WS</column>
+            <column name="country_alpha_three">WSM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">189</column>
+            <column name="country_name">San Marino</column>
+            <column name="country_code">+378</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">SM</column>
+            <column name="country_alpha_three">SMR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">190</column>
+            <column name="country_name">Sao Tome and Principe</column>
+            <column name="country_code">+239</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">ST</column>
+            <column name="country_alpha_three">STP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">191</column>
+            <column name="country_name">Saudi Arabia</column>
+            <column name="country_code">+966</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">SA</column>
+            <column name="country_alpha_three">SAU</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">192</column>
+            <column name="country_name">Senegal</column>
+            <column name="country_code">+221</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">SN</column>
+            <column name="country_alpha_three">SEN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">193</column>
+            <column name="country_name">Serbia</column>
+            <column name="country_code">+381</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">RS</column>
+            <column name="country_alpha_three">SRB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">194</column>
+            <column name="country_name">Seychelles</column>
+            <column name="country_code">+248</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">SC</column>
+            <column name="country_alpha_three">SYC</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">195</column>
+            <column name="country_name">Sierra Leone</column>
+            <column name="country_code">+232</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">SL</column>
+            <column name="country_alpha_three">SLE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">196</column>
+            <column name="country_name">Singapore</column>
+            <column name="country_code">+65</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">SG</column>
+            <column name="country_alpha_three">SGP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">197</column>
+            <column name="country_name">Sint Mararten</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">SX</column>
+            <column name="country_alpha_three">SXM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">198</column>
+            <column name="country_name">Slovakia</column>
+            <column name="country_code">+421</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">SK</column>
+            <column name="country_alpha_three">SVK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">199</column>
+            <column name="country_name">Slovenia</column>
+            <column name="country_code">+386</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">SI</column>
+            <column name="country_alpha_three">SVN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">200</column>
+            <column name="country_name">Solomon Islands</column>
+            <column name="country_code">+677</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">SB</column>
+            <column name="country_alpha_three">SLB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">201</column>
+            <column name="country_name">Somalia</column>
+            <column name="country_code">+252</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">SO</column>
+            <column name="country_alpha_three">SOM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">202</column>
+            <column name="country_name">South Africa</column>
+            <column name="country_code">+27</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">ZA</column>
+            <column name="country_alpha_three">ZAF</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">203</column>
+            <column name="country_name">South korea</column>
+            <column name="country_code">+82</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">KR</column>
+            <column name="country_alpha_three">KR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">204</column>
+            <column name="country_name">South Sudan</column>
+            <column name="country_code">+211</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">SS</column>
+            <column name="country_alpha_three">SSD</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">205</column>
+            <column name="country_name">Spain</column>
+            <column name="country_code">+34</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">ES</column>
+            <column name="country_alpha_three">ESP</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">206</column>
+            <column name="country_name">Sri Lanka</column>
+            <column name="country_code">+94</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">LK</column>
+            <column name="country_alpha_three">LKA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">207</column>
+            <column name="country_name">Sudan</column>
+            <column name="country_code">+249</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">SD</column>
+            <column name="country_alpha_three">SDN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">208</column>
+            <column name="country_name">Suirname</column>
+            <column name="country_code">+597</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">SR</column>
+            <column name="country_alpha_three">SUR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">209</column>
+            <column name="country_name">Svalbard</column>
+            <column name="country_code">+47</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">SJ</column>
+            <column name="country_alpha_three">SJM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">210</column>
+            <column name="country_name">Sweden</column>
+            <column name="country_code">+46</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">SE</column>
+            <column name="country_alpha_three">SWE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">211</column>
+            <column name="country_name">Switzerland</column>
+            <column name="country_code">+41</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">CH</column>
+            <column name="country_alpha_three">CHE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">212</column>
+            <column name="country_name">Syria</column>
+            <column name="country_code">+963</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">SY</column>
+            <column name="country_alpha_three">SYR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">213</column>
+            <column name="country_name">Taiwan</column>
+            <column name="country_code">+886</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">TW</column>
+            <column name="country_alpha_three">TWN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">214</column>
+            <column name="country_name">Tajikistan</column>
+            <column name="country_code">+992</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">TJ</column>
+            <column name="country_alpha_three">TJK</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">215</column>
+            <column name="country_name">Tanzania</column>
+            <column name="country_code">+255</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">TZ</column>
+            <column name="country_alpha_three">TZA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">216</column>
+            <column name="country_name">Thailand</column>
+            <column name="country_code">+66</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">TH</column>
+            <column name="country_alpha_three">THA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">217</column>
+            <column name="country_name">Togo</column>
+            <column name="country_code">+228</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">TG</column>
+            <column name="country_alpha_three">TGO</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">218</column>
+            <column name="country_name">Trindad and Tobago</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">TT</column>
+            <column name="country_alpha_three">TTO</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">219</column>
+            <column name="country_name">Tunisia</column>
+            <column name="country_code">+216</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">TN</column>
+            <column name="country_alpha_three">TUN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">220</column>
+            <column name="country_name">Turkey</column>
+            <column name="country_code">+90</column>
+            <column name="mobile_length">11</column>
+            <column name="country_alpha_two">TR</column>
+            <column name="country_alpha_three">TUR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">221</column>
+            <column name="country_name">Turkmenistan</column>
+            <column name="country_code">+993</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">TM</column>
+            <column name="country_alpha_three">TKM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">222</column>
+            <column name="country_name">Turks and caicos Islands</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">TC</column>
+            <column name="country_alpha_three">TCA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">223</column>
+            <column name="country_name">Uganda</column>
+            <column name="country_code">+256</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">UG</column>
+            <column name="country_alpha_three">UGA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">224</column>
+            <column name="country_name">Ukraine</column>
+            <column name="country_code">+380</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">UA</column>
+            <column name="country_alpha_three">UKR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">225</column>
+            <column name="country_name">United Arab Emirates</column>
+            <column name="country_code">+971</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">AE</column>
+            <column name="country_alpha_three">ARE</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">226</column>
+            <column name="country_name">United Kingdom</column>
+            <column name="country_code">+44</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">GB</column>
+            <column name="country_alpha_three">GBR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">227</column>
+            <column name="country_name">Unites States(USA)</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">US</column>
+            <column name="country_alpha_three">USA</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">228</column>
+            <column name="country_name">United States Virgin Islands</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">VI</column>
+            <column name="country_alpha_three">VIR</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">229</column>
+            <column name="country_name">Uruguay</column>
+            <column name="country_code">+598</column>
+            <column name="mobile_length">8</column>
+            <column name="country_alpha_two">UY</column>
+            <column name="country_alpha_three">URY</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">230</column>
+            <column name="country_name">Uzbekistan</column>
+            <column name="country_code">+998</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">UZ</column>
+            <column name="country_alpha_three">UZB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">231</column>
+            <column name="country_name">Vanuatu</column>
+            <column name="country_code">+678</column>
+            <column name="mobile_length">5</column>
+            <column name="country_alpha_two">VU</column>
+            <column name="country_alpha_three">VUT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">232</column>
+            <column name="country_name">Vatican City</column>
+            <column name="country_code">+39</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">VA</column>
+            <column name="country_alpha_three">VAT</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">233</column>
+            <column name="country_name">Venezuela</column>
+            <column name="country_code">+58</column>
+            <column name="mobile_length">7</column>
+            <column name="country_alpha_two">VE</column>
+            <column name="country_alpha_three">VEN</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">234</column>
+            <column name="country_name">Veitnam</column>
+            <column name="country_code">+84</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">VN</column>
+            <column name="country_alpha_three">VNM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">235</column>
+            <column name="country_name">U.S. Virgin Islands</column>
+            <column name="country_code">+1</column>
+            <column name="mobile_length">10</column>
+            <column name="country_alpha_two">VG</column>
+            <column name="country_alpha_three">VGB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">236</column>
+            <column name="country_name">Wallis and Futuna</column>
+            <column name="country_code">+681</column>
+            <column name="mobile_length">6</column>
+            <column name="country_alpha_two">WF</column>
+            <column name="country_alpha_three">WLF</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">237</column>
+            <column name="country_name">Yemen</column>
+            <column name="country_code">+967</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">YE</column>
+            <column name="country_alpha_three">YEM</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">238</column>
+            <column name="country_name">Zambia</column>
+            <column name="country_code">+260</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">ZM</column>
+            <column name="country_alpha_three">ZMB</column>
+        </table>
+        <table name="countries">
+            <column name="country_id">239</column>
+            <column name="country_name">Zimbabwe</column>
+            <column name="country_code">+263</column>
+            <column name="mobile_length">9</column>
+            <column name="country_alpha_two">ZW</column>
+            <column name="country_alpha_three">ZWE</column>
+        </table>
+    </database>
+</pma_xml_export>
